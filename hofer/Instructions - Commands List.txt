@@ -1,0 +1,36 @@
+****************** Run the below commands to able to execute the <name>.py file ******************
+
+
+git clone https://gitlab.com/geo-spider/community-spider.git
+
+cd .\community-spider\
+
+pip install scrapy 
+
+pip install pipenv
+
+pipenv install
+
+pipenv shell
+
+pipenv install scrapy
+
+scrapy startproject hofer
+
+cd hofer
+
+scrapy genspider hofer_dpa rbcroyalbank.com
+
+
+
+
+Note : Now Paste the code in rbc_royal_bank_can_dpa.py
+
+
+
+scrapy crawl rbc_royal_bank_can_dpa
+
+
+
+
+
